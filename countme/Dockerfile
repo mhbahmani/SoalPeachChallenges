@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 COPY main.py .
 
-ENTRYPOINT endpoints --prefix=main --host=localhost:8000
+ENTRYPOINT endpoints --prefix=main --host=localhost:80
